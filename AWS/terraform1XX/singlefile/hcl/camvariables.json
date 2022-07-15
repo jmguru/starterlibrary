@@ -127,12 +127,24 @@
 		}
 	],
 	"template_output_params": [
-	  {
-		  "name": "ip_address",
-		  "type": "string",
-		  "hidden": false,
-		  "label": "VM IP address",
-		  "secured": false
-		}
-	]
+		{
+			"name": "ip_address",
+			"type": "string",
+			"hidden": false,
+			"label": "VM IP address",
+			"secured": false
+		  },{
+			"name": "instance_machine_id",
+			"type": "string",
+			"hidden": false,
+			"label": "Machine ID",
+			"secured": false
+		  },{
+			"name": "availability_zone",
+			"type": "string",
+			"hidden": false,
+			"label": "vm deloyed zone",
+			"secured": false
+		  }
+	  ]
 }
